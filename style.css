@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: red;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.main h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+.main button {
+  padding: 10px 50px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.positive {
+  color: #0000ff;
+}
+.negative {
+  color: #ff0000;
+}
